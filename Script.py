@@ -12,22 +12,24 @@ def is_enabled(value, default):
 
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://droplink.co/ref/KarthikUK')
-    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 I'm an UK Movies Official Auto Filter Bot (Movie Search Bot) Maintained by <a href=https://t.me/UK_Movies_Zone_Updates><b></b>UK Movies Zone (Updates)</a>. We are Providing Tamil and Tamil Dubbed Movies. More Languages Coming Soon. I Can Support Upto 4GB File. You Can Get added Files GDrive Links and 4GB above Links also. You Can Get GDrive Links in <a href=http://www.HMTDMovies.tk><b></b>www.HMTDMovies.tk</a>. Keep me Join to Our Official Channel to Receive Bot & Movies Updates in <a href=https://t.me/UK_Movies_Zone_Updates><b></b>UK Movies Zone (Updates)</a>. Check "😁 About" Button.</b>''')
+    START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻\n✯ My Name is Teamisaimini Request
+✯ I Can Provide MOVIES,SERIES And Lot More
+✯ Don't Waste Your Time Looking To Add ME To Your Group , I'm Only For @Teamisaimini
+✯ TEAM - @Teamisaimini</b>''')
     HELP_TXT = """<b>Hi {}
 I have that Features.
 Create One Link This :
 » I will Create For One Bot You. But Paid
-» Contact Me <a href=https://t.me/HMTD_Karthik><b>Karthik</b></a></b>"""
-    ABOUT_TXT = """<b><i>🤖 My Name : <a href=https://t.me/UK_Movies_Bot><b>UK Movies Bot</b></a>\n
-🧑🏻‍💻 Developer : <a href=https://t.me/HMTD_Karthik><b>Karthik</b></a>\n
+» Contact Me <a href=https://t.me/PrivateidX><b>Private</b></a></b>"""
+    ABOUT_TXT = """<b>🤖 My Name : Teamisaimini\n
+🧑🏻‍💻 Developer : <a href=https://t.me/PrivateidX><b>Private</b></a>\n
 📝 Language : Pyrogram\n
 📚 Framework : Python3\n
 📡 Hosted on : VPS\n
-📢 Updates Channel : <a href=https://t.me/UK_Movies_Zone_Updates><b></b>UK Movies Zone (Updates)</a>\n
-🌐 Website : <a href=http://www.HMTDMovies.tk><b></b>www.HMTDMovies.tk</a>\n</b></i>"""
+📢 Updates Channel : <a href=https://t.me/Teamisaimini><b></b>Teamisaimini</a>"""
     SOURCE_TXT = """<b>Create One Like This :</b>
 » I will Create One Bot For You. But Paid<b>
-» Contact Me</b> <a href=https://t.me/HMTD_Karthik><b>Karthik</b></a>"""
+» Contact Me</b> <a href=https://t.me/PrivateidX><b>Private</b></a>"""
     MANUELFILTER_TXT = """<b>Help :</b> <b>Filters</b>
 
 <b>- Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message</b>
