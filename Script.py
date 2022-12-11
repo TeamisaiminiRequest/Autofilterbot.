@@ -11,7 +11,7 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://droplink.co/ref/KarthikUK')
+    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", '')
     START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻\n✯ My Name is Teamisaimini Request
 ✯ I Can Provide MOVIES,SERIES And Lot More
 ✯ Don't Waste Your Time Looking To Add ME To Your Group , I'm Only For @Teamisaimini
@@ -20,16 +20,16 @@ class script(object):
 I have that Features.
 Create One Link This :
 » I will Create For One Bot You. But Paid
-» Contact Me <a href=https://t.me/PrivateidX><b>Private</b></a></b>"""
+» Contact Me <a href=https://t.me/teamisaimini><b>teamisaimini</b></a></b>"""
     ABOUT_TXT = """<b>🤖 My Name : Teamisaimini\n
-🧑🏻‍💻 Developer : <a href=https://t.me/PrivateidX><b>Private</b></a>\n
+🧑🏻‍💻 Developer : <a href=https://t.me/teamisaimini><b>teamisaimini</b></a>\n
 📝 Language : Pyrogram\n
 📚 Framework : Python3\n
 📡 Hosted on : VPS\n
 📢 Updates Channel : <a href=https://t.me/Teamisaimini><b></b>Teamisaimini</a>"""
     SOURCE_TXT = """<b>Create One Like This :</b>
 » I will Create One Bot For You. But Paid<b>
-» Contact Me</b> <a href=https://t.me/PrivateidX><b>Private</b></a>"""
+» Contact Me</b> <a href=https://t.me/teamisaimini><b>Teamisaimini</b></a>"""
     MANUELFILTER_TXT = """<b>Help :</b> <b>Filters</b>
 
 <b>- Filter is the feature were users can set automated replies for a particular keyword and Search Bot will respond whenever a keyword is found the message</b>
@@ -54,7 +54,7 @@ Create One Link This :
 3. Buttons should be properly parsed as markdown format</b>
 
 <b>URL buttons :</b>
-<code>[Button Text](buttonurl:https://t.me/HMTD_Karthik)</code>
+<code>[Button Text](buttonurl:https://t.me/Teamisaimini)</code>
 
 <b>Alert buttons :</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
