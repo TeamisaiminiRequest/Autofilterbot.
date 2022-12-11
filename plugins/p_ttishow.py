@@ -54,8 +54,8 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_video(
-                video="https://telegra.ph/file/11d612c9f9a61c19427b0.mp4",                                               
-                                                 caption=f'<b>Hello 👋🏻, {u.mention} Welcome to Our Group\nUK Movies Group\nWe are Providing Tamil and Tamil Dubbed Movies. More Languages Coming Soon. I Can Support Upto 4GB File. You Can Get added Files GDrive Links and 4GB above Links also. You Can Get GDrive Links in <a href=https://www.HMTDMovies.tk/><b></b>www.HMTDMovies.tk</a>. Keep me Join to Our Official Channel to Receive Bot & Movies Updates in <a href=https://t.me/UK_Movies_Zone_Updates><b></b>UK Movies Zone (Updates)</a>.</b>',
+                video="",                                               
+                                                 caption=f'<b>Hello 👋🏻, {u.mention} ✯ My Name is Teamisaimini Request\n✯ I Can Provide MOVIES,SERIES And Lot More\n✯ Don't Waste Your Time Looking To Add ME To Your Group , I'm Only For @Teamisaimini\n✯ TEAM - @Teamisaimini',
                                                  reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🚫 Group Rules 🚫', url='http://t.me/MissRose_bot?start=rules_-1001650088903') ] ] )
                 )
 
